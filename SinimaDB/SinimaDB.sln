@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{67769112-23BA-4E61-8B11-EDAC0791C94A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{894FCAE6-1BB7-4F49-800E-FA8E1266D7C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5A5A1E84-EE54-4B91-8459-F695ADF3E00F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4C98C79A-DC8E-443B-B217-3DD628136BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F4138533-50A1-4CE2-AB71-90DA9A527020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7C30411B-BEAA-41B1-BFD5-8EF17E6766E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinimaDB.Domain", "SinimaDB.Domain\SinimaDB.Domain.csproj", "{BB361C5C-DCD1-4786-B402-DAFDB39AACFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinimaDB.Domain.Tests", "SinimaDB.Domain.Tests\SinimaDB.Domain.Tests.csproj", "{C1C37A31-CC15-4F6F-97AC-233A87E33AEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB361C5C-DCD1-4786-B402-DAFDB39AACFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB361C5C-DCD1-4786-B402-DAFDB39AACFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB361C5C-DCD1-4786-B402-DAFDB39AACFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB361C5C-DCD1-4786-B402-DAFDB39AACFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C37A31-CC15-4F6F-97AC-233A87E33AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C37A31-CC15-4F6F-97AC-233A87E33AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C37A31-CC15-4F6F-97AC-233A87E33AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C37A31-CC15-4F6F-97AC-233A87E33AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{894FCAE6-1BB7-4F49-800E-FA8E1266D7C7} = {67769112-23BA-4E61-8B11-EDAC0791C94A}
+		{5A5A1E84-EE54-4B91-8459-F695ADF3E00F} = {67769112-23BA-4E61-8B11-EDAC0791C94A}
+		{4C98C79A-DC8E-443B-B217-3DD628136BEE} = {67769112-23BA-4E61-8B11-EDAC0791C94A}
+		{F4138533-50A1-4CE2-AB71-90DA9A527020} = {67769112-23BA-4E61-8B11-EDAC0791C94A}
+		{BB361C5C-DCD1-4786-B402-DAFDB39AACFD} = {5A5A1E84-EE54-4B91-8459-F695ADF3E00F}
+		{C1C37A31-CC15-4F6F-97AC-233A87E33AEF} = {7C30411B-BEAA-41B1-BFD5-8EF17E6766E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A941BC88-2577-47DD-9362-7E0B29B5510C}
+	EndGlobalSection
+EndGlobal
